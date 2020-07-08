@@ -1,1 +1,37 @@
 // Add your styles here
+body {
+  font-family: "Bangers", cursive;
+  background: url("../images/stars.png") center center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    color: #1e8c83;
+    font-size: 200px;
+    position: relative;
+    // background: -webkit-linear-gradient(#eee, #333);
+  }
+  .titleBackground {
+    background-position: center;
+    background: transparent;
+    color: rgb(182, 173, 173);
+    background: url("../images/saturn-ring-4.jpg");
+  }
+  h2 {
+    color: yellow;
+    margin: 0 10px;
+  }
+  .centerContainer {
+    display: flex;
+    flex-direction: column;
+    border: lime;
+  }
+  .row {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
