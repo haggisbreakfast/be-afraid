@@ -7,31 +7,45 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  .centerContainer {
+    display: flex;
+    flex-direction: column;
+  }
   h1 {
+    // background-image: linear-gradient(
+    //   to left,
+    //   #1e8c83,
+    //   #25a584,
+    //   #62bd6a,
+    //   #cede73,
+    //   #39b572,
+    //   #187bad,
+    //   #136ba5
+    // );
     color: #1e8c83;
-    font-size: 200px;
-    position: relative;
-    // background: -webkit-linear-gradient(#eee, #333);
+    // -webkit-background-clip: text;
+    text-align: center;
+    font-size: 180px;
   }
   .titleBackground {
-    background-position: center;
-    background: transparent;
-    color: rgb(182, 173, 173);
-    background: url("../images/saturn-ring-4.jpg");
+    background-position: center center;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    background: url("../images/bball-flames.png") no-repeat;
+    background-size: contain;
+  }
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   h2 {
     color: yellow;
     margin: 0 10px;
   }
-  .centerContainer {
-    display: flex;
-    flex-direction: column;
-    border: lime;
-  }
-  .row {
-    border: 1px solid white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  img {
+    width: 50px;
+    height: 50px;
   }
 }
