@@ -12,20 +12,10 @@ body {
     flex-direction: column;
   }
   h1 {
-    // background-image: linear-gradient(
-    //   to left,
-    //   #1e8c83,
-    //   #25a584,
-    //   #62bd6a,
-    //   #cede73,
-    //   #39b572,
-    //   #187bad,
-    //   #136ba5
-    // );
     color: #1e8c83;
     // -webkit-background-clip: text;
     text-align: center;
-    font-size: 180px;
+    font-size: 160px;
   }
   .titleBackground {
     background-position: center center;
@@ -37,15 +27,47 @@ body {
   }
   .row {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+  }
+  .itemContainer {
+    text-align: center;
+    transition: transform 0.7s;
+    &:hover {
+      transform: scale(1.2);
+    }
+    a {
+      text-decoration: none;
+    }
   }
   h2 {
     color: yellow;
     margin: 0 10px;
+    font-size: 30px;
   }
   img {
-    width: 50px;
-    height: 50px;
+    width: 120px;
+    height: 100px;
+    transition: transform;
+  }
+  .bandcamp {
+    // margin-left: -80px;
+  }
+  .spotify {
+    margin-left: -220px;
+    margin-bottom: -130px;
+  }
+  .insta,
+  .fb {
+    img {
+      height: 160px;
+      width: 160px;
+    }
+  }
+  .insta {
+    margin-bottom: -120px;
+  }
+  .email {
+    margin-left: -120px;
   }
 }
