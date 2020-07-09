@@ -1,0 +1,73 @@
+// Add your styles here
+body {
+  font-family: "Bangers", cursive;
+  background: url("../images/stars.png") center center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .centerContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  h1 {
+    color: #1e8c83;
+    // -webkit-background-clip: text;
+    text-align: center;
+    font-size: 160px;
+  }
+  .titleBackground {
+    background-position: center center;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    background: url("../images/bball-flames.png") no-repeat;
+    background-size: contain;
+  }
+  .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .itemContainer {
+    text-align: center;
+    transition: transform 0.7s;
+    &:hover {
+      transform: scale(1.2);
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+  h2 {
+    color: yellow;
+    margin: 0 10px;
+    font-size: 30px;
+  }
+  img {
+    width: 120px;
+    height: 100px;
+    transition: transform;
+  }
+  .bandcamp {
+    // margin-left: -80px;
+  }
+  .spotify {
+    margin-left: -220px;
+    margin-bottom: -130px;
+  }
+  .insta,
+  .fb {
+    img {
+      height: 160px;
+      width: 160px;
+    }
+  }
+  .insta {
+    margin-bottom: -120px;
+  }
+  .email {
+    margin-left: -120px;
+  }
+}
